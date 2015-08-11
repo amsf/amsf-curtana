@@ -1,6 +1,6 @@
 # Curtana
 
-AMSF (Almace Scaffolding) default theme
+[AMSF](http://sparanoid.com/lab/amsf/) (Almace Scaffolding) default theme
 
 ## Features
 
