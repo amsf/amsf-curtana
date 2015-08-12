@@ -34,7 +34,6 @@ module.exports = (grunt) ->
     grunt.task.run [
       "bump-only:#{type or 'patch'}"
       "conventionalChangelog"
-      "replace:amsf__site__update_version"
       "bump-commit"
     ]
 
