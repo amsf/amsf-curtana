@@ -38,5 +38,5 @@ module.exports = (grunt) ->
     ]
 
   grunt.registerTask "default", "Default task aka. build task", [
-    "build"
+    "release"
   ]
