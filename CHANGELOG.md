@@ -1,3 +1,23 @@
+<a name="0.0.2"></a>
+## [0.0.2](https://github.com/sparanoid/amsf-curtana/compare/v0.0.1...v0.0.2) (2015-08-17)
+
+
+### Bug Fixes
+
+* **grunt:** release as default task ([db8e928](https://github.com/sparanoid/amsf-curtana/commit/db8e928))
+* **style:** missing footnotes styles for Kramdown ([d2f24d6](https://github.com/sparanoid/amsf-curtana/commit/d2f24d6))
+* **theme:** missing CSS variables for Kramdown ([b117678](https://github.com/sparanoid/amsf-curtana/commit/b117678))
+
+### Features
+
+* **style:** better code blocks and images size on mobile devices ([8041709](https://github.com/sparanoid/amsf-curtana/commit/8041709))
+* **style:** simplify amsf custom style ([d25ed98](https://github.com/sparanoid/amsf-curtana/commit/d25ed98))
+* **template:** add page templates ([051be30](https://github.com/sparanoid/amsf-curtana/commit/051be30))
+* **theme:** add custom favicon support ([9791178](https://github.com/sparanoid/amsf-curtana/commit/9791178))
+* **theme:** better content margin ([57c7a3a](https://github.com/sparanoid/amsf-curtana/commit/57c7a3a))
+
+
+
 <a name="0.0.1"></a>
 ## 0.0.1 (2015-08-12)
 
