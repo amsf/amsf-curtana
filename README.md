@@ -31,4 +31,4 @@ $ grunt theme-add --theme=curtana
 
 ## Licenses
 
-[MIT](http://www.opensource.org/licenses/mit-license.php)
+MIT
