@@ -1,3 +1,26 @@
+<a name="0.0.3"></a>
+## [0.0.3](https://github.com/sparanoid/amsf-curtana/compare/v0.0.2...v0.0.3) (2015-08-24)
+
+
+### Bug Fixes
+
+* remove leftovers ([6905844](https://github.com/sparanoid/amsf-curtana/commit/6905844))
+* **pages:** avoid production output for example pages ([9c1eaa2](https://github.com/sparanoid/amsf-curtana/commit/9c1eaa2))
+* **style:** exclude browser image width ([434c34f](https://github.com/sparanoid/amsf-curtana/commit/434c34f))
+* **style:** some images not stretched on mobile devices ([6c7a4d1](https://github.com/sparanoid/amsf-curtana/commit/6c7a4d1))
+
+### Features
+
+* **style:** list minor tweaks ([342a6eb](https://github.com/sparanoid/amsf-curtana/commit/342a6eb))
+* **template:** add Google Analytics support ([46b424c](https://github.com/sparanoid/amsf-curtana/commit/46b424c))
+* **theme:** rearrange assets ([d14fef1](https://github.com/sparanoid/amsf-curtana/commit/d14fef1))
+* **theme:** simplify custom styles ([b209b0e](https://github.com/sparanoid/amsf-curtana/commit/b209b0e))
+* **theme:** typographic tweaks ([7a31a22](https://github.com/sparanoid/amsf-curtana/commit/7a31a22))
+* **theme:** update blockquotes style ([01995be](https://github.com/sparanoid/amsf-curtana/commit/01995be))
+* **theme:** update default page templates ([ecca259](https://github.com/sparanoid/amsf-curtana/commit/ecca259))
+
+
+
 <a name="0.0.2"></a>
 ## [0.0.2](https://github.com/sparanoid/amsf-curtana/compare/v0.0.1...v0.0.2) (2015-08-17)
 
