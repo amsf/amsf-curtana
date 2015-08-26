@@ -1,3 +1,29 @@
+<a name="0.0.4"></a>
+## [0.0.4](https://github.com/sparanoid/amsf-curtana/compare/v0.0.3...v0.0.4) (2015-08-26)
+
+
+### Bug Fixes
+
+* **style:** add `.no-enlarge` to exclude specific images ([f025749](https://github.com/sparanoid/amsf-curtana/commit/f025749))
+* **style:** better image, video, and iframe handling ([b29b2ba](https://github.com/sparanoid/amsf-curtana/commit/b29b2ba))
+* **template:** missing post language tag ([89bba5c](https://github.com/sparanoid/amsf-curtana/commit/89bba5c))
+* **theme:** code not break in list ([ed09821](https://github.com/sparanoid/amsf-curtana/commit/ed09821))
+
+### Features
+
+* **style:** use `no-intense` instead of `nointese` ([40c197c](https://github.com/sparanoid/amsf-curtana/commit/40c197c))
+* **template:** better post / page language support ([414ca4d](https://github.com/sparanoid/amsf-curtana/commit/414ca4d))
+
+
+### BREAKING CHANGES
+
+* This will break your current layout if you're using `nointense` for your images, please rename the classes to `no-intense`, sorry for the inconvenience.
+* Now you can add `.no-enlarge` to images that you'd like to keep it in normal width in smaller devices:
+```html
+<img class="no-enlarge" src="/ipad-frame-01.png">
+```
+
+
 <a name="0.0.3"></a>
 ## [0.0.3](https://github.com/sparanoid/amsf-curtana/compare/v0.0.2...v0.0.3) (2015-08-24)
 
