@@ -25,7 +25,11 @@
       background-image:
         {% for image in page.scheme-bg-img %}
           {% unless first %},{% endunless %}
-          url("{{ site.file }}/{{ page.scheme-bg-img[forloop.index0] }}")
+          {% if page.scheme-bg-img-local == true %}
+            url("{{ site.assets | prepend: site.base }}/{{ page.scheme-bg-img[forloop.index0] }}")
+          {% else %}
+            url("{{ site.file }}/{{ page.scheme-bg-img[forloop.index0] }}")
+          {% endif %}
           {% assign first = false %}
         {% endfor %}
       ;
