@@ -17,6 +17,9 @@
     {% if page.scheme-bg %}
     background-color: {{ page.scheme-bg }};
     {% endif %}
+    {% if page.scheme-bg-img %}
+    background-image: url("{{ site.file }}/{{ page.scheme-bg-img }}");
+    {% endif %}
   }
 
   {% if page.scheme-text %}
