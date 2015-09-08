@@ -14,11 +14,21 @@
     {% if page.scheme-text %}
     color: {{ page.scheme-text }};
     {% endif %}
+
     {% if page.scheme-bg %}
     background-color: {{ page.scheme-bg }};
     {% endif %}
+
     {% if page.scheme-bg-img %}
-    background-image: url("{{ site.file }}/{{ page.scheme-bg-img }}");
+      {% assign first = true %}
+
+      background-image:
+        {% for image in page.scheme-bg-img %}
+          {% unless first %},{% endunless %}
+          url("{{ site.file }}/{{ page.scheme-bg-img[forloop.index0] }}")
+          {% assign first = false %}
+        {% endfor %}
+      ;
     {% endif %}
   }
 
