@@ -83,7 +83,7 @@
 
 * hello world ([c5fc207](https://github.com/sparanoid/amsf-curtana/commit/c5fc207))
 * **docs:** add readme ([8ac925f](https://github.com/sparanoid/amsf-curtana/commit/8ac925f))
-* **style:** add missing CSS (LESS) lint and comb configs ([88d48af](https://github.com/sparanoid/amsf-curtana/commit/88d48af))
+* **style:** add missing CSS (Less) lint and comb configs ([88d48af](https://github.com/sparanoid/amsf-curtana/commit/88d48af))
 * **style:** reset custom styles ([1f3cf61](https://github.com/sparanoid/amsf-curtana/commit/1f3cf61))
 * **template:** add theme basic info ([4b32166](https://github.com/sparanoid/amsf-curtana/commit/4b32166))
 * **template:** new syntax for inline assets ([596400b](https://github.com/sparanoid/amsf-curtana/commit/596400b))
