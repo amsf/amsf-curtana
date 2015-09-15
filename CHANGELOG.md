@@ -1,3 +1,26 @@
+<a name="0.0.5"></a>
+## [0.0.5](https://github.com/sparanoid/amsf-curtana/compare/v0.0.4...v0.0.5) (2015-09-15)
+
+
+### Bug Fixes
+
+* **style:** header not correctly aligned ([e4095f0](https://github.com/sparanoid/amsf-curtana/commit/e4095f0))
+* **style:** wrong header children text align ([c464d64](https://github.com/sparanoid/amsf-curtana/commit/c464d64))
+
+### Features
+
+* **docs:** update badge ([7e5c498](https://github.com/sparanoid/amsf-curtana/commit/7e5c498))
+* **style:** avoid transition delay ([a810726](https://github.com/sparanoid/amsf-curtana/commit/a810726))
+* **style:** minor tweak ([7329c2a](https://github.com/sparanoid/amsf-curtana/commit/7329c2a))
+* **style:** wider images for large screens ([a2c328c](https://github.com/sparanoid/amsf-curtana/commit/a2c328c))
+* **template:** `scheme-bg-img` works with multiple images ([58d576d](https://github.com/sparanoid/amsf-curtana/commit/58d576d))
+* **template:** add `page.scheme-bg-img-local` option ([5f41824](https://github.com/sparanoid/amsf-curtana/commit/5f41824))
+* **template:** add `scheme-bg-img` support ([7a49b3e](https://github.com/sparanoid/amsf-curtana/commit/7a49b3e))
+* **template:** simplify template structure ([0fbed02](https://github.com/sparanoid/amsf-curtana/commit/0fbed02))
+* **template:** use `data-assets-inline` attribute for `grunt-assets-inline` ([9209658](https://github.com/sparanoid/amsf-curtana/commit/9209658))
+
+
+
 <a name="0.0.4"></a>
 ## [0.0.4](https://github.com/sparanoid/amsf-curtana/compare/v0.0.3...v0.0.4) (2015-08-26)
 
