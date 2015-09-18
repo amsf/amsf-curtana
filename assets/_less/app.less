@@ -642,6 +642,17 @@ body:hover .latest {
   }
 }
 
+// Extra offset for OS X screenshots
+.screenshot-mac {
+  margin-left: -56px;
+  margin-right: -56px;
+
+  @media (max-width: @breakpoint-md), (max-width: @breakpoint-sm) {
+    margin-left: 0;
+    margin-right: 0
+  }
+}
+
 // Special paragraph with border line
 .note,
 .store,
