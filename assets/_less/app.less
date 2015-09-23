@@ -134,8 +134,9 @@ a, button {
 
   &:hover,
   &:focus {
-    border-bottom: .1em solid;
     transition: color .1s ease, border-color .1s ease, background .1s ease, opacity .1s ease;
+    text-decoration: underline;
+    text-decoration-skip: ink;
   }
 
   &[disabled] {
@@ -204,7 +205,7 @@ del {
       &:hover,
       &:focus {
         color: @link-color;
-        border: none;
+        text-decoration: none;
       }
     }
   }
@@ -710,11 +711,6 @@ body:hover .latest {
 
   .external {
 
-    &:hover,
-    &:focus {
-      border: none;
-    }
-
     @media (max-width: @breakpoint-sm) {
       // Hide external link for post list
       display: none;
@@ -724,7 +720,7 @@ body:hover .latest {
 
 .external {
 
-  span {
+  .dot {
     display: inline-block;
     width: .7rem;
     height: .7rem;
@@ -733,12 +729,17 @@ body:hover .latest {
     background: @text-color;
     border-radius: 50%;
     transition: transform .4s ease;
+
+    // Extra margin for external symbol in singular
+    &--post {
+      margin-left: 1rem;
+    }
   }
 
   &:hover,
   &:focus {
 
-    span {
+    .dot {
       transform: scale(1.4);
     }
   }
