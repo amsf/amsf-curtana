@@ -1,3 +1,25 @@
+<a name="0.0.6"></a>
+## [0.0.6](https://github.com/sparanoid/amsf-curtana/compare/v0.0.5...v0.0.6) (2015-09-27)
+
+
+### Bug Fixes
+
+* **styles:** accidentally reset styles to previous version ([738faa8](https://github.com/sparanoid/amsf-curtana/commit/738faa8))
+
+### Features
+
+* **style:** better fontstack variables ([80430fc](https://github.com/sparanoid/amsf-curtana/commit/80430fc))
+* **styles:** add `.screenshot-mac` helper class ([7444196](https://github.com/sparanoid/amsf-curtana/commit/7444196))
+* **styles:** update font stack order ([84abf4f](https://github.com/sparanoid/amsf-curtana/commit/84abf4f))
+* **styles:** update text decoration ([68e4e17](https://github.com/sparanoid/amsf-curtana/commit/68e4e17))
+* **template:** disable language tag for post list ([fbc3e37](https://github.com/sparanoid/amsf-curtana/commit/fbc3e37))
+
+
+### BREAKING CHANGES
+
+* You have to double check if you're overriding `@sans-serif`, `@serif`, or `@monospace` to use custom fontstacks, these variables have been changed to `@fontstack-sans-serif`, `@fontstack-serif`, and `@fontstack-monospace`.
+
+
 <a name="0.0.5"></a>
 ## [0.0.5](https://github.com/sparanoid/amsf-curtana/compare/v0.0.4...v0.0.5) (2015-09-15)
 
