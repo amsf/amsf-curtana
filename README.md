@@ -1,5 +1,4 @@
 # Curtana
-[![Deployment status from DeployBot](https://sparanoid.deploybot.com/badge/13023224003344/43717.svg)](http://deploybot.com)
 
 [AMSF](http://sparanoid.com/lab/amsf/) (Almace Scaffolding) default theme
 
