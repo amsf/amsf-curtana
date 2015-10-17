@@ -1,3 +1,18 @@
+<a name="0.0.7"></a>
+## [0.0.7](https://github.com/sparanoid/amsf-curtana/compare/v0.0.6...v0.0.7) (2015-10-17)
+
+
+### Features
+
+* **style:** remove abbr styles ([1ced313](https://github.com/sparanoid/amsf-curtana/commit/1ced313))
+* **style:** tweak default code color ([d1471a5](https://github.com/sparanoid/amsf-curtana/commit/d1471a5))
+* **template:** add `mask-icon` support for Safari ([aaa76b8](https://github.com/sparanoid/amsf-curtana/commit/aaa76b8))
+* **template:** add modified date support ([93309fa](https://github.com/sparanoid/amsf-curtana/commit/93309fa))
+* **template:** use `user.less` and `user.js` ([f9f5503](https://github.com/sparanoid/amsf-curtana/commit/f9f5503))
+* **template:** use variable for mask-icon color ([952357d](https://github.com/sparanoid/amsf-curtana/commit/952357d))
+
+
+
 <a name="0.0.6"></a>
 ## [0.0.6](https://github.com/sparanoid/amsf-curtana/compare/v0.0.5...v0.0.6) (2015-09-27)
 
