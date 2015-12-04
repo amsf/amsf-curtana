@@ -1,3 +1,35 @@
+<a name="0.0.8"></a>
+## [0.0.8](https://github.com/sparanoid/amsf-curtana/compare/v0.0.7...v0.0.8) (2015-12-04)
+
+
+### Bug Fixes
+
+* **amsf:** missing title whitespace ([34f4156](https://github.com/sparanoid/amsf-curtana/commit/34f4156))
+* **style:** Don't always show horizontal scrollbar ([1a20c24](https://github.com/sparanoid/amsf-curtana/commit/1a20c24)), closes [#2](https://github.com/sparanoid/amsf-curtana/issues/2)
+* **styles:** make line numbers not selectable ([d3d6e26](https://github.com/sparanoid/amsf-curtana/commit/d3d6e26))
+
+### Features
+
+* **style:** gapless border for blockquotes, fixes https://github.com/amsf/amsf-curtana/issue ([ae9cdcf](https://github.com/sparanoid/amsf-curtana/commit/ae9cdcf))
+* **style:** smaller blockquotes font size ([9280796](https://github.com/sparanoid/amsf-curtana/commit/9280796))
+* **styles:** add basic `lineno` support ([049f08c](https://github.com/sparanoid/amsf-curtana/commit/049f08c))
+* **styles:** avoid calculating code color ([092f6ff](https://github.com/sparanoid/amsf-curtana/commit/092f6ff))
+* **styles:** update default code color ([5ffcaeb](https://github.com/sparanoid/amsf-curtana/commit/5ffcaeb))
+* **styles:** use brand-new fully automatic generated syntax highlighting ([08876e8](https://github.com/sparanoid/amsf-curtana/commit/08876e8))
+* **template:** disable `jekyll-last-modified-at` for dev mod for better performance ([fae1386](https://github.com/sparanoid/amsf-curtana/commit/fae1386))
+
+
+### BREAKING CHANGES
+
+* Now paragraphs in a blockquote will get a single gapless border on the left side, you don't need special markup to achieve this now:
+```markdown
+> … these mean that in many fields the rule will be: Build it, and they will come.
+>
+> Paul Graham
+```
+* This will change your syntax highlighting color scheme, you can now tweak it with `@code-color`, have fun.
+
+
 <a name="0.0.7"></a>
 ## [0.0.7](https://github.com/sparanoid/amsf-curtana/compare/v0.0.6...v0.0.7) (2015-10-17)
 
