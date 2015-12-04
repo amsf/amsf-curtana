@@ -436,6 +436,18 @@ body:hover .latest {
     > p {
       padding-left: .8em;
       border-left: 2px solid;
+      // TODO: Need better solution
+      // We will reset the common margin-bototm to get gapless borders for blockquotes
+      // This could help fix https://github.com/amsf/amsf-curtana/issues/4
+      padding-bottom: 1.6rem;
+      // Now reset default margin button from global define
+      margin-bottom: 0;
+
+      // Remove extra padding for the last element, re-apply margin
+      &:last-of-type {
+        padding-bottom: 0;
+        margin-bottom: 1.6rem;
+      }
 
       @media (max-width: @breakpoint-sm) {
         padding-left: calc(4vw - 2px);
@@ -484,7 +496,7 @@ body:hover .latest {
   pre {
     padding: 1em;
     margin: 0 0 1.8rem;
-    overflow-x: scroll;
+    overflow-x: auto;
     font-size: 80%;
     line-height: (@line-height * 1.2);
     background: fade(#08f, 4%);
