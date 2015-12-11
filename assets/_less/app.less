@@ -24,6 +24,7 @@
 // Invert color switcher for images and videos
 // :root { filter: invert(100%); }
 
+// Essential mixins
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .cf {
 
@@ -34,6 +35,35 @@
 
   &:after {
     clear: both;
+  }
+}
+
+.heading() {
+  font-size: 330%;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  letter-spacing: -.06em;
+}
+
+.sub-heading() {
+  font-size: 72%;
+  font-weight: normal;
+  opacity: .5;
+}
+
+.spliter() {
+  @size: 4px;
+  @color: @text-color;
+
+  &::before {
+    display: block;
+    content: '';
+    width: @size;
+    height: @size;
+    margin: 2em auto;
+    border-radius: 50%;
+    background: @color;
+    box-shadow: (@size * 5) 0 0 0 @color, (@size * -5) 0 0 0 @color;
   }
 }
 
@@ -92,20 +122,6 @@ body {
     content: "";
     opacity: .2;
   }
-}
-
-// Essential mixins
-.heading {
-  font-size: 330%;
-  -webkit-font-smoothing: antialiased;
-  font-weight: bold;
-  letter-spacing: -.06em;
-}
-
-.sub-heading {
-  font-size: 72%;
-  font-weight: normal;
-  opacity: .5;
 }
 
 // Reset fonts for relevant elements
@@ -323,7 +339,7 @@ body:hover .latest {
 
     h1 {
       margin: 0 0 .1em;
-      .heading;
+      .heading();
       hyphens: none;
       line-height: 1.1;
 
@@ -377,7 +393,7 @@ body:hover .latest {
 
   h2, h3, h4, h5, h6 {
     margin: 10vmin 0 1rem;
-    .sub-heading;
+    .sub-heading();
   }
 
   ul, ol {
@@ -473,9 +489,7 @@ body:hover .latest {
   }
 
   hr {
-    border-top: 1px solid fade(#ccc, 20%);
-    margin-top: 2em;
-    margin-bottom: 2em;
+    .spliter();
   }
 
   sup {
@@ -606,7 +620,7 @@ body:hover .latest {
 
 // Largetype styles (replaces button styles)
 .largetype {
-  .heading;
+  .heading();
   font-size: 200%;
   margin-bottom: 1.8rem !important;
 }
@@ -682,9 +696,7 @@ body:hover .latest {
 
 // Reference notes and links in post
 .footnotes {
-  border-top: 1px solid fade(#ccc, 20%);
-  padding-top: 2em;
-  margin-top: 2em;
+  .spliter();
   font-size: 80%;
 }
 
@@ -693,6 +705,7 @@ body:hover .latest {
   // Redcarpet-style
   [rev=footnote],
   [rel=footnote],
+
   // Kramdown-style
   .reversefootnote,
   .footnote {
@@ -706,7 +719,7 @@ body:hover .latest {
   margin: 0 0 .4rem;
 
   h1 {
-    .heading;
+    .heading();
     font-size: 200%;
     line-height: 1.1;
     // Override heading defines in .content
@@ -728,6 +741,7 @@ body:hover .latest {
   }
 }
 
+// A dot symbol for external links
 .external {
 
   .dot {
