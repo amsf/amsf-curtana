@@ -1,3 +1,18 @@
+<a name="0.0.9"></a>
+## [0.0.9](https://github.com/sparanoid/amsf-curtana/compare/v0.0.8...v0.0.9) (2015-12-19)
+
+
+### Bug Fixes
+
+* **styles:** missing custom footnote decorations color ([3a612c6](https://github.com/sparanoid/amsf-curtana/commit/3a612c6))
+
+### Features
+
+* **styles:** brand new spliter for `hr` and `.footnotes` ([c997877](https://github.com/sparanoid/amsf-curtana/commit/c997877))
+* **template:** experiments with custom data (Words and Reading time Open Graph support) ([bb64703](https://github.com/sparanoid/amsf-curtana/commit/bb64703))
+
+
+
 <a name="0.0.8"></a>
 ## [0.0.8](https://github.com/sparanoid/amsf-curtana/compare/v0.0.7...v0.0.8) (2015-12-04)
 
