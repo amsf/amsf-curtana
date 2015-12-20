@@ -1,3 +1,17 @@
+<a name="0.0.10"></a>
+## [0.0.10](https://github.com/sparanoid/amsf-curtana/compare/v0.0.9...v0.0.10) (2015-12-20)
+
+
+### Bug Fixes
+
+* **styles:** missing padding variable for offset elements ([ca8b2c7](https://github.com/sparanoid/amsf-curtana/commit/ca8b2c7))
+
+### Features
+
+* **styles:** add position offset for `pre` and `table`, break Less into files ([d391e6f](https://github.com/sparanoid/amsf-curtana/commit/d391e6f))
+
+
+
 <a name="0.0.9"></a>
 ## [0.0.9](https://github.com/sparanoid/amsf-curtana/compare/v0.0.8...v0.0.9) (2015-12-19)
 
