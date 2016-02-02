@@ -1,3 +1,17 @@
+<a name="0.0.11"></a>
+## [0.0.11](https://github.com/sparanoid/amsf-curtana/compare/v0.0.10...v0.0.11) (2016-02-02)
+
+
+### Bug Fixes
+
+* **styles:** missing custom `hr` css scope ([0813fb8](https://github.com/sparanoid/amsf-curtana/commit/0813fb8))
+
+### Features
+
+* **style:** update `::selection` style ([bd9e3f4](https://github.com/sparanoid/amsf-curtana/commit/bd9e3f4))
+
+
+
 <a name="0.0.10"></a>
 ## [0.0.10](https://github.com/sparanoid/amsf-curtana/compare/v0.0.9...v0.0.10) (2015-12-20)
 
