@@ -1,3 +1,13 @@
+<a name="0.0.13"></a>
+## [0.0.13](https://github.com/sparanoid/amsf-curtana/compare/v0.0.12...v0.0.13) (2016-03-01)
+
+
+### Bug Fixes
+
+* **styles:** missing top navbar ([a475948](https://github.com/sparanoid/amsf-curtana/commit/a475948))
+
+
+
 <a name="0.0.12"></a>
 ## [0.0.12](https://github.com/sparanoid/amsf-curtana/compare/v0.0.11...v0.0.12) (2016-03-01)
 
