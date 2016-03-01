@@ -1,3 +1,18 @@
+<a name="0.0.12"></a>
+## [0.0.12](https://github.com/sparanoid/amsf-curtana/compare/v0.0.11...v0.0.12) (2016-03-01)
+
+
+### Bug Fixes
+
+* **styles:** error page not shown correct in Chrome (possibly browser bug) ([0fa7ead](https://github.com/sparanoid/amsf-curtana/commit/0fa7ead))
+* **styles:** missing placeholder styles for Firefox and other browsers ([f9a3361](https://github.com/sparanoid/amsf-curtana/commit/f9a3361))
+
+### Features
+
+* **styles:** update scope for text styles ([c2ecc35](https://github.com/sparanoid/amsf-curtana/commit/c2ecc35))
+
+
+
 <a name="0.0.11"></a>
 ## [0.0.11](https://github.com/sparanoid/amsf-curtana/compare/v0.0.10...v0.0.11) (2016-02-02)
 
