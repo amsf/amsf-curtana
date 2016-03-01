@@ -10,7 +10,7 @@
 - (Maybe) [the first](https://github.com/sparanoid/sparanoid.com/commit/9b44b4c0f57c3dd1e828d828a95cc21b992785ce) template that uses [viewport relative units](http://www.w3.org/TR/css3-values/#viewport-relative-lengths)
 - Handcrafted stylesheets. No Bootstrap or other bloated frameworks are used, unminified CSS < 12 KB
 - Predefined Less variables make it easier to change color schemes for different posts
-- Default stylesheets for Pygments code highlighting
+- Default stylesheets for Rouge / Pygments highlighters
 - [Twitter Cards](https://dev.twitter.com/docs/cards) support
 - No Internet Explorer support
 
