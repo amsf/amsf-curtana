@@ -1,3 +1,25 @@
+<a name="0.0.14"></a>
+## [0.0.14](https://github.com/sparanoid/amsf-curtana/compare/v0.0.13...v0.0.14) (2016-03-09)
+
+
+### Features
+
+* **scripts:** replace `intense.js` with `lightense.js` ([acb7b2a](https://github.com/sparanoid/amsf-curtana/commit/acb7b2a))
+
+
+### BREAKING CHANGES
+
+* I've rewrote the `intense.js` from the ground up and rebranded it as `lightense.js`, a minimalism “lightbox” script less than 2 KB (not gzipped!).
+If you have used Intensed Images, you have to changes the plugin keyword in your front-matter fields from:
+```yml
+plugin: intense
+```
+to:
+```yml
+plugin: lightense
+```
+
+
 <a name="0.0.13"></a>
 ## [0.0.13](https://github.com/sparanoid/amsf-curtana/compare/v0.0.12...v0.0.13) (2016-03-01)
 
