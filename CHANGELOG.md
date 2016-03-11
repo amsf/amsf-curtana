@@ -1,3 +1,24 @@
+<a name="0.0.15"></a>
+## [0.0.15](https://github.com/sparanoid/amsf-curtana/compare/v0.0.14...v0.0.15) (2016-03-11)
+
+
+### Bug Fixes
+
+* **script:** missing box sizing reset for Lightense ([d66cf01](https://github.com/sparanoid/amsf-curtana/commit/d66cf01))
+* **script:** update default image styles reset ([fe6e672](https://github.com/sparanoid/amsf-curtana/commit/fe6e672))
+* **template:** use `amsf_user_assets` variable ([27f7ad0](https://github.com/sparanoid/amsf-curtana/commit/27f7ad0))
+
+### Features
+
+* **script:** allow arbitrary element for Lightense ([3941f47](https://github.com/sparanoid/amsf-curtana/commit/3941f47))
+* **script:** inline Lightense ([48047b0](https://github.com/sparanoid/amsf-curtana/commit/48047b0))
+* **script:** update Lightense Images ([1e313b8](https://github.com/sparanoid/amsf-curtana/commit/1e313b8))
+* **styles:** darker codeblock background ([be891af](https://github.com/sparanoid/amsf-curtana/commit/be891af))
+* **styles:** lighter blockquotes ([3f07875](https://github.com/sparanoid/amsf-curtana/commit/3f07875))
+* **template:** simplifed banners ([9fe7d1e](https://github.com/sparanoid/amsf-curtana/commit/9fe7d1e))
+
+
+
 <a name="0.0.14"></a>
 ## [0.0.14](https://github.com/sparanoid/amsf-curtana/compare/v0.0.13...v0.0.14) (2016-03-09)
 
