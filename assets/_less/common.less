@@ -444,11 +444,25 @@ body:hover .latest {
       padding: .6em @space-xs;
 
       @media (max-width: @breakpoint-md) {
-        // .padding-offset(@space-md, @space-md);
+
+        &:first-child {
+          padding-left: @space-md;
+        }
+
+        &:last-child {
+          padding-right: @space-md;
+        }
       }
 
       @media (max-width: @breakpoint-sm) {
-        // .padding-offset(@space-sm, @space-sm);
+
+        &:first-child {
+          padding-left: @space-sm;
+        }
+
+        &:last-child {
+          padding-right: @space-sm;
+        }
       }
     }
 
