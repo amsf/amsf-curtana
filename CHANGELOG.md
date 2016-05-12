@@ -1,3 +1,43 @@
+<a name="0.0.16"></a>
+## [0.0.16](https://github.com/sparanoid/amsf-curtana/compare/v0.0.15...v0.0.16) (2016-05-12)
+
+
+### Bug Fixes
+
+* **styles:** "double" scroller issue on some platforms with codeblocks ([4069869](https://github.com/sparanoid/amsf-curtana/commit/4069869))
+* **styles:** avoid override custom list style ([1fc8708](https://github.com/sparanoid/amsf-curtana/commit/1fc8708))
+* **styles:** missing monospace for Windows ([4bc9bd3](https://github.com/sparanoid/amsf-curtana/commit/4bc9bd3))
+* **styles:** wrong table stripes on mobile devices ([21c5d52](https://github.com/sparanoid/amsf-curtana/commit/21c5d52))
+* **template:** avoid link indicators being removed by `html-minifier` ([a8bbfb7](https://github.com/sparanoid/amsf-curtana/commit/a8bbfb7))
+* **template:** use custom variable for “Home” placeholder ([0f6c3f5](https://github.com/sparanoid/amsf-curtana/commit/0f6c3f5))
+* **theme:** adjust header height ([e8b1000](https://github.com/sparanoid/amsf-curtana/commit/e8b1000))
+
+### Features
+
+* **script:** update LIghtense Images ([8a7c89b](https://github.com/sparanoid/amsf-curtana/commit/8a7c89b))
+* **styles:** better heading space for small screens ([cbfe70b](https://github.com/sparanoid/amsf-curtana/commit/cbfe70b))
+* **styles:** better leading quote indent with custom `letter-spacing` support ([e705119](https://github.com/sparanoid/amsf-curtana/commit/e705119))
+* **styles:** better list styles ([f1b6f1e](https://github.com/sparanoid/amsf-curtana/commit/f1b6f1e))
+* **styles:** brand-new headings ([8f5a482](https://github.com/sparanoid/amsf-curtana/commit/8f5a482))
+* **styles:** optimize for iPad Pro portrait direction ([b6c3ce9](https://github.com/sparanoid/amsf-curtana/commit/b6c3ce9))
+* **styles:** smaller splitter ([38875f5](https://github.com/sparanoid/amsf-curtana/commit/38875f5))
+* **styles:** tweak leading quote indents ([def24d3](https://github.com/sparanoid/amsf-curtana/commit/def24d3))
+* **styles:** update leading quotes indent based on characters ([987cb4c](https://github.com/sparanoid/amsf-curtana/commit/987cb4c))
+* **styles:** visual aligin tweak ([d5f003a](https://github.com/sparanoid/amsf-curtana/commit/d5f003a))
+* **template:** add `data-title` for later use ([14d26b4](https://github.com/sparanoid/amsf-curtana/commit/14d26b4))
+* **theme:** update header height ([dbe8567](https://github.com/sparanoid/amsf-curtana/commit/dbe8567))
+
+
+### BREAKING CHANGES
+
+* I've redesigned the site headings this time, and also introduces some new variables for you to customize them, you can use your favorite color site-wide or specific post in post front-matter field:
+```yaml
+scheme-hero-text: "#00ebff"
+scheme-hero-link: "#00ebff"
+scheme-hero-bg: "#0029ff"
+```
+
+
 <a name="0.0.15"></a>
 ## [0.0.15](https://github.com/sparanoid/amsf-curtana/compare/v0.0.14...v0.0.15) (2016-03-11)
 
