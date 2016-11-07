@@ -24,9 +24,9 @@ module.exports = (grunt) ->
       options:
         files: ["package.json"]
         updateConfigs: ["config.pkg"]
-        commitMessage: 'chore: release v%VERSION%'
+        commitMessage: "chore: release v%VERSION%"
         commitFiles: ["-a"]
-        tagMessage: 'chore: create tag %VERSION%'
+        tagMessage: "chore: create tag %VERSION%"
         push: false
 
   # Release new version
