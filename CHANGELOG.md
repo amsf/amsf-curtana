@@ -1,3 +1,26 @@
+<a name="0.0.17"></a>
+## [0.0.17](https://github.com/sparanoid/amsf-curtana/compare/v0.0.16...v0.0.17) (2016-11-07)
+
+
+### Bug Fixes
+
+* **config:** wrong URL ([10be312](https://github.com/sparanoid/amsf-curtana/commit/10be312))
+* **package:** mismatch version ([5ccf3a3](https://github.com/sparanoid/amsf-curtana/commit/5ccf3a3))
+* **template:** compatible with latest jekyll ([a920d19](https://github.com/sparanoid/amsf-curtana/commit/a920d19))
+
+
+### Features
+
+* **config:** update project links ([5587898](https://github.com/sparanoid/amsf-curtana/commit/5587898))
+* **script:** use latest Lightense Images ([61c2676](https://github.com/sparanoid/amsf-curtana/commit/61c2676))
+* **style:** merge  into ([ef00ab1](https://github.com/sparanoid/amsf-curtana/commit/ef00ab1))
+* **style:** remove obsoleted option ([fceed47](https://github.com/sparanoid/amsf-curtana/commit/fceed47))
+* **style:** remove site specific styles ([394317f](https://github.com/sparanoid/amsf-curtana/commit/394317f))
+* **style:** tweak typography for San Francisco for macOS with OpenType features support ([bf226b5](https://github.com/sparanoid/amsf-curtana/commit/bf226b5))
+* **theme:** remove CSS comments ([d17cb5e](https://github.com/sparanoid/amsf-curtana/commit/d17cb5e))
+
+
+
 <a name="0.0.15"></a>
 ## [0.0.15](https://github.com/sparanoid/amsf-curtana/compare/v0.0.14...v0.0.15) (2016-03-11)
 
