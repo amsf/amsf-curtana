@@ -1,3 +1,22 @@
+<a name="0.0.18"></a>
+## [0.0.18](https://github.com/sparanoid/amsf-curtana/compare/v0.0.17...v0.0.18) (2016-12-29)
+
+
+### Features
+
+* **curtana:** link style button ([af43806](https://github.com/sparanoid/amsf-curtana/commit/af43806))
+* **curtana:** remove donate variables ([7d85bd6](https://github.com/sparanoid/amsf-curtana/commit/7d85bd6))
+* **js:** update Lightense Images ([755da2a](https://github.com/sparanoid/amsf-curtana/commit/755da2a))
+* **style:** add description list styles ([14591cb](https://github.com/sparanoid/amsf-curtana/commit/14591cb))
+* **style:** more specific decoration color ([e7952c9](https://github.com/sparanoid/amsf-curtana/commit/e7952c9))
+* **style:** smaller header for small screens ([0f9279b](https://github.com/sparanoid/amsf-curtana/commit/0f9279b))
+* **style:** smaller inline codes to match general text ([439d776](https://github.com/sparanoid/amsf-curtana/commit/439d776))
+* **style:** visual align tweak for list decorations ([23d6220](https://github.com/sparanoid/amsf-curtana/commit/23d6220))
+* **template:** better meddia detection for Twitter Cards and Open Graph ([ce202f6](https://github.com/sparanoid/amsf-curtana/commit/ce202f6))
+* **template:** better Twitter Cards and Open Graph support ([c166398](https://github.com/sparanoid/amsf-curtana/commit/c166398))
+
+
+
 <a name="0.0.17"></a>
 ## [0.0.17](https://github.com/sparanoid/amsf-curtana/compare/v0.0.16...v0.0.17) (2016-11-07)
 
