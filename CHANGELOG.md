@@ -1,3 +1,23 @@
+<a name="0.0.19"></a>
+## [0.0.19](https://github.com/sparanoid/amsf-curtana/compare/v0.0.18...v0.0.19) (2017-01-06)
+
+
+### Bug Fixes
+
+* **template:** wrong style define for external indicator in post list ([7828c3d](https://github.com/sparanoid/amsf-curtana/commit/7828c3d))
+
+
+### Features
+
+* **curtana:** remove custom `::selection` styles ([84a702a](https://github.com/sparanoid/amsf-curtana/commit/84a702a))
+* **page:** better list item link color ([670c3af](https://github.com/sparanoid/amsf-curtana/commit/670c3af))
+* **page:** update example content ([3491c57](https://github.com/sparanoid/amsf-curtana/commit/3491c57))
+* **template:** better thumbnail handling ([f69d47b](https://github.com/sparanoid/amsf-curtana/commit/f69d47b))
+* **template:** heading background customization support (finally) ([e5e21ec](https://github.com/sparanoid/amsf-curtana/commit/e5e21ec))
+* **template:** simplify thumbnail logic ([0de6614](https://github.com/sparanoid/amsf-curtana/commit/0de6614))
+
+
+
 <a name="0.0.18"></a>
 ## [0.0.18](https://github.com/sparanoid/amsf-curtana/compare/v0.0.17...v0.0.18) (2016-12-29)
 
