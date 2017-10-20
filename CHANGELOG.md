@@ -1,3 +1,60 @@
+<a name="0.0.20"></a>
+## [0.0.20](https://github.com/sparanoid/amsf-curtana/compare/v0.0.19...v0.0.20) (2017-10-20)
+
+
+### Bug Fixes
+
+* **curtana:** wrong word wrapping in `pre` codeblocks ([bff5711](https://github.com/sparanoid/amsf-curtana/commit/bff5711))
+* **header:** extra whitespace for links in header ([5ba4920](https://github.com/sparanoid/amsf-curtana/commit/5ba4920))
+* **open-graph:** empty date nor pass throught correctly with liquid v4 ([057ee19](https://github.com/sparanoid/amsf-curtana/commit/057ee19))
+* **style:** avoid applying `font-feature-settings` for non-Apple devices ([06f2fac](https://github.com/sparanoid/amsf-curtana/commit/06f2fac))
+* **style:** script generated styles been removed by `uncss` ([178d15f](https://github.com/sparanoid/amsf-curtana/commit/178d15f))
+* **style:** wrong ruby appearance for asian language ([2dc59bc](https://github.com/sparanoid/amsf-curtana/commit/2dc59bc))
+
+
+### Features
+
+* **style:** image size helpers ([dd922a6](https://github.com/sparanoid/amsf-curtana/commit/dd922a6))
+* move `primary_color` to sytem config ([ab2c5f4](https://github.com/sparanoid/amsf-curtana/commit/ab2c5f4))
+* **amsf:** basic Chrome Web App manifest support ([45065da](https://github.com/sparanoid/amsf-curtana/commit/45065da))
+* **footer:** add Service Worker support ([d4fe607](https://github.com/sparanoid/amsf-curtana/commit/d4fe607))
+* **header:** use `slugify` name for header link state comparison ([d51aa6e](https://github.com/sparanoid/amsf-curtana/commit/d51aa6e))
+* **js:** update Lightense Images ([17f3191](https://github.com/sparanoid/amsf-curtana/commit/17f3191))
+* **page:** use kramdown syntax ([0b2d735](https://github.com/sparanoid/amsf-curtana/commit/0b2d735))
+* **posts:** remove deprecated front matter fields ([86c9961](https://github.com/sparanoid/amsf-curtana/commit/86c9961))
+* **script:** use minified script ([a9e0d26](https://github.com/sparanoid/amsf-curtana/commit/a9e0d26))
+* **style:** global font smoothing ([ca4c55d](https://github.com/sparanoid/amsf-curtana/commit/ca4c55d))
+* **style:** layout minor tweaks ([aa962ff](https://github.com/sparanoid/amsf-curtana/commit/aa962ff))
+* **style:** less aggressive word breaking (wrapping) for codes ([f8fb5f9](https://github.com/sparanoid/amsf-curtana/commit/f8fb5f9))
+* **style:** match link space in header and footer ([1d34f23](https://github.com/sparanoid/amsf-curtana/commit/1d34f23))
+* **style:** Normalize heading image size ([b33cda0](https://github.com/sparanoid/amsf-curtana/commit/b33cda0))
+* **style:** remove `grunt-leading-quotes` support, use native `hanging-punctuation` CSS feature ([36290dc](https://github.com/sparanoid/amsf-curtana/commit/36290dc))
+* **style:** simplify code wrapping using `overflow-wrap` ([df128a7](https://github.com/sparanoid/amsf-curtana/commit/df128a7))
+* **style:** simply offset calculation ([27e03e2](https://github.com/sparanoid/amsf-curtana/commit/27e03e2))
+* **style:** update syntax highlighter styles ([501d855](https://github.com/sparanoid/amsf-curtana/commit/501d855))
+* **template:** make custom heading image and background available for pages ([e0efa53](https://github.com/sparanoid/amsf-curtana/commit/e0efa53))
+* **template:** migrate from home-made `site.base` and `amsf_theme_base` to Jekyll built-in `relative_url` and `absolute_url` ([843f622](https://github.com/sparanoid/amsf-curtana/commit/843f622))
+* **template:** smarter way to handle favicons ([874c42a](https://github.com/sparanoid/amsf-curtana/commit/874c42a))
+* **template:** unify `header` naming ([6c87f18](https://github.com/sparanoid/amsf-curtana/commit/6c87f18))
+* remove deprecated csslint support ([9c8e052](https://github.com/sparanoid/amsf-curtana/commit/9c8e052))
+* **template:** update with latest AMSF support ([94782b5](https://github.com/sparanoid/amsf-curtana/commit/94782b5))
+* **template:** use inline css option for error page ([0eb42c2](https://github.com/sparanoid/amsf-curtana/commit/0eb42c2))
+* **template:** use system defined variables ([ef934d9](https://github.com/sparanoid/amsf-curtana/commit/ef934d9))
+
+
+### BREAKING CHANGES
+
+* template: To migrate from old URL structure. You should simply replace the following:
+
+- `site.base` in your templates to `relative_url`, examples:
+  - `{{ site.base }}/my-post.html` to `{{ "my-post.html" | relative_url }}`
+  - `{{ "my-post.html" | prepend: site.base }}` to `{{ "my-post.html" | relative_url }}`
+- `amsf_theme_base` in your templates to `absolute_url`, examples:
+  - `{{ amsf_theme_base }}/my-post.html` to `{{ "my-post.html" | absolute_url }}`
+  - `{{ "my-post.html" | prepend: amsf_theme_base }}` to `{{ "my-post.html" | absolute_url }}`
+
+
+
 <a name="0.0.19"></a>
 ## [0.0.19](https://github.com/sparanoid/amsf-curtana/compare/v0.0.18...v0.0.19) (2017-01-06)
 
