@@ -1,3 +1,19 @@
+<a name="0.0.21"></a>
+## [0.0.21](https://github.com/sparanoid/amsf-curtana/compare/v0.0.20...v0.0.21) (2018-01-24)
+
+
+### Bug Fixes
+
+* **css:** uninherited input text color ([b66b670](https://github.com/sparanoid/amsf-curtana/commit/b66b670))
+* **css:** wrong syntax highlight scope ([7a98ff8](https://github.com/sparanoid/amsf-curtana/commit/7a98ff8))
+
+
+### Features
+
+* **template:** iphone x support ([7e51056](https://github.com/sparanoid/amsf-curtana/commit/7e51056))
+
+
+
 <a name="0.0.20"></a>
 ## [0.0.20](https://github.com/sparanoid/amsf-curtana/compare/v0.0.19...v0.0.20) (2017-10-20)
 
