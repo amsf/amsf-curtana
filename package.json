@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sparanoid/amsf-curtana.git"
+    "url": "git://github.com/amsf/amsf-curtana.git"
   },
   "bugs": {
-    "url": "http://github.com/sparanoid/amsf-curtana/issues"
+    "url": "http://github.com/amsf/amsf-curtana/issues"
   },
   "license": "MIT",
   "keywords": [
