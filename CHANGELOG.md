@@ -1,3 +1,18 @@
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/amsf/amsf-curtana/compare/v1.0.0...v1.0.1) (2018-07-23)
+
+
+### Bug Fixes
+
+* **css:** invalid font stack when `--fontstack-prefix` is empty ([9a1195a](https://github.com/amsf/amsf-curtana/commit/9a1195a))
+
+
+### Features
+
+* **css:** update color variables ([723ab4a](https://github.com/amsf/amsf-curtana/commit/723ab4a))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/amsf/amsf-curtana/compare/v0.0.21...v1.0.0) (2018-07-23)
 
