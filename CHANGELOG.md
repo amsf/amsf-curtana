@@ -1,3 +1,15 @@
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/amsf/amsf-curtana/compare/v0.0.21...v1.0.0) (2018-07-23)
+
+
+### Features
+
+* **css:** migrate from less to sass ([21c6fa8](https://github.com/amsf/amsf-curtana/commit/21c6fa8))
+* **footer:** atom link removed, not that important nowadays ([1343c75](https://github.com/amsf/amsf-curtana/commit/1343c75))
+* **jekyll:** update header for native livereload support ([df0aad9](https://github.com/amsf/amsf-curtana/commit/df0aad9))
+
+
+
 <a name="0.0.21"></a>
 ## [0.0.21](https://github.com/sparanoid/amsf-curtana/compare/v0.0.20...v0.0.21) (2018-01-24)
 
