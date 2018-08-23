@@ -3,14 +3,8 @@
 // -----------------------------------------------------------------------------
 
 // Typography setup
-// TODO: need better solution
-// Apply `font-feature` for Apple devices, since these features are only
-// available for San Francisco. implemented in `app.js`
-.js-system {
-
-  &--apple {
-    font-feature-settings: "case", "ss01", "ss02";
-  }
+:root[data-ua*="Windows"] {
+  --font-features: normal;
 }
 
 // Main navigation
@@ -103,7 +97,7 @@ body:hover .latest {
 
     // TODO: Fixes wrong underline color for inline `code` within `a` links.
     // However no browser supports this feature at the time of writing.
-    // More info: http://caniuse.com/#feat=css-has
+    // More info: https://caniuse.com/#feat=css-has
     // Date: Dec 10, 2016, 5:59 PM
     &:has(> code) {
       text-decoration-color: var(--code-color);
@@ -402,7 +396,7 @@ body:hover .latest {
       font-style: normal;
 
       &:before {
-        // http://www.fileformat.info/info/unicode/char/2500/index.htm
+        // https://www.fileformat.info/info/unicode/char/2500/index.htm
         content: "\2500\2500\00a0"
       }
     }
