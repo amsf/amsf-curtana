@@ -1,3 +1,22 @@
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/amsf/amsf-curtana/compare/v1.0.1...v1.0.2) (2018-09-01)
+
+
+### Bug Fixes
+
+* **css:** missing varibles ([bb31bbd](https://github.com/amsf/amsf-curtana/commit/bb31bbd))
+* **css:** wrong list deco position ([7bb78e3](https://github.com/amsf/amsf-curtana/commit/7bb78e3))
+* **css:** wrong summary position on small screens ([843434a](https://github.com/amsf/amsf-curtana/commit/843434a))
+* **css:** wrong variable ([6f306ee](https://github.com/amsf/amsf-curtana/commit/6f306ee))
+
+
+### Features
+
+* **css:** add summary support ([84043d7](https://github.com/amsf/amsf-curtana/commit/84043d7))
+* **css:** update header and footer appearance ([75efaa8](https://github.com/amsf/amsf-curtana/commit/75efaa8))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/amsf/amsf-curtana/compare/v1.0.0...v1.0.1) (2018-07-23)
 
