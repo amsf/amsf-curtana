@@ -226,13 +226,13 @@ body:hover .latest {
 
   ul li::before {
     content: "-";
-    padding-right: .6em;
+    padding-right: .5em;
   }
 
   ol li::before {
     counter-increment: list;
     content: counter(list) ".";
-    padding-right: .3em;
+    padding-right: .25em;
   }
 
   dl {
@@ -340,6 +340,20 @@ body:hover .latest {
         margin-top: auto;
         margin-left: auto;
         margin-bottom: auto;
+      }
+    }
+
+    &.no-resize,
+    &.noresize,
+    &.size-original {
+      width: unset;
+      max-width: 100%;
+      margin-left: unset;
+      margin-right: unset;
+
+      &.center {
+        margin-left: auto;
+        margin-right: auto;
       }
     }
   }
